@@ -1,0 +1,30 @@
+{
+	"object": {
+		"id": "OBJECT_ID",
+		"name": "OBJECT_NAME",
+		"startdate": "START_DATE",
+		"enddate": "END_DATE",
+		"positions": [
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+		]
+	}
+}

@@ -1,0 +1,49 @@
+PDS_VERSION_ID               = PDS3
+RECORD_TYPE                  = FIXED_LENGTH
+RECORD_BYTES                 = 1024
+^SPICE_KERNEL                = "msl_ra_toolsref_v1.bc"
+MISSION_NAME                 = "MARS SCIENCE LABORATORY"
+SPACECRAFT_NAME              = "MARS SCIENCE LABORATORY"
+DATA_SET_ID                  = "MSL-M-SPICE-6-V1.0"
+KERNEL_TYPE_ID               = CK
+PRODUCT_ID                   = "msl_ra_toolsref_v1.bc"
+PRODUCT_CREATION_TIME        = 2013-02-27T19:17:16
+PRODUCER_ID                  = "NAIF/JPL"
+MISSION_PHASE_NAME           = {
+                               DEVELOPMENT,
+                               LAUNCH,
+                               "CRUISE AND APPROACH",
+                               "ENTRY, DESCENT, AND LANDING",
+                               "PRIMARY SURFACE MISSION",
+                               "EXTENDED SURFACE MISSION"
+                               }
+PRODUCT_VERSION_TYPE         = ACTUAL
+PLATFORM_OR_MOUNTING_NAME    = "ROBOTIC ARM"
+START_TIME                   = 2011-01-01T00:00:00.000
+STOP_TIME                    = 2030-01-01T00:00:02.040
+SPACECRAFT_CLOCK_START_COUNT = "1/0347112066-12059"
+SPACECRAFT_CLOCK_STOP_COUNT  = "1/0946722776-45422"
+TARGET_NAME                  = MARS
+INSTRUMENT_NAME              = {
+                               "MARS HAND LENS IMAGER",
+                               "ALPHA PARTICLE X-RAY SPECTROMETER",
+                               "POWDER ACQUISITION DRILL SYSTEM",
+                               "DUST REMOVAL TOOL",
+                   "COLLECTION AND HANDLING FOR IN-SITU MARTIAN ROCK ANALYSIS"
+                               }
+NAIF_INSTRUMENT_ID           = {
+                               -76350,
+                               -76340,
+                               -76330,
+                               -76320,
+                               -76310
+                               }
+SOURCE_PRODUCT_ID            = "N/A"
+NOTE                         = "See comments in the file for details"
+OBJECT                       = SPICE_KERNEL
+  INTERCHANGE_FORMAT         = BINARY
+  KERNEL_TYPE                = POINTING
+  DESCRIPTION                = "CK file containing fixed orientations of
+the RA instrument frames relative to their corresponding REF frames. "
+END_OBJECT                   = SPICE_KERNEL
+END

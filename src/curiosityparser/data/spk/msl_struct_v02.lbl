@@ -1,0 +1,37 @@
+PDS_VERSION_ID               = PDS3
+RECORD_TYPE                  = FIXED_LENGTH
+RECORD_BYTES                 = 1024
+^SPICE_KERNEL                = "msl_struct_v02.bsp"
+MISSION_NAME                 = "MARS SCIENCE LABORATORY"
+SPACECRAFT_NAME              = "MARS SCIENCE LABORATORY"
+DATA_SET_ID                  = "MSL-M-SPICE-6-V1.0"
+KERNEL_TYPE_ID               = SPK
+PRODUCT_ID                   = "msl_struct_v02.bsp"
+PRODUCT_CREATION_TIME        = 2013-02-27T19:17:45
+PRODUCER_ID                  = "NAIF/JPL"
+MISSION_PHASE_NAME           = {
+                               DEVELOPMENT,
+                               LAUNCH,
+                               "CRUISE AND APPROACH",
+                               "ENTRY, DESCENT, AND LANDING",
+                               "PRIMARY SURFACE MISSION",
+                               "EXTENDED SURFACE MISSION"
+                               }
+PRODUCT_VERSION_TYPE         = ACTUAL
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2010-12-31T23:58:54
+STOP_TIME                    = 2029-12-31T23:58:53
+SPACECRAFT_CLOCK_START_COUNT = "N/A"
+SPACECRAFT_CLOCK_STOP_COUNT  = "N/A"
+TARGET_NAME                  = MARS
+INSTRUMENT_NAME              = "N/A"
+NAIF_INSTRUMENT_ID           = "N/A"
+SOURCE_PRODUCT_ID            = "N/A"
+NOTE                         = "See comments in the file for details"
+OBJECT                       = SPICE_KERNEL
+  INTERCHANGE_FORMAT         = BINARY
+  KERNEL_TYPE                = EPHEMERIS
+  DESCRIPTION                = "SPK file providing relative locations of
+various MSL structures and science and engineering instruments.  "
+END_OBJECT                   = SPICE_KERNEL
+END

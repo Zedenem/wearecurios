@@ -1,0 +1,34 @@
+PDS_VERSION_ID               = PDS3
+RECORD_TYPE                  = FIXED_LENGTH
+RECORD_BYTES                 = 1024
+^SPICE_KERNEL                = "msl_cruise_recon_rawrt_v2.bc"
+MISSION_NAME                 = "MARS SCIENCE LABORATORY"
+SPACECRAFT_NAME              = "MARS SCIENCE LABORATORY"
+DATA_SET_ID                  = "MSL-M-SPICE-6-V1.0"
+KERNEL_TYPE_ID               = CK
+PRODUCT_ID                   = "msl_cruise_recon_rawrt_v2.bc"
+PRODUCT_CREATION_TIME        = 2013-02-27T19:17:14
+PRODUCER_ID                  = "MSLACS/JPL"
+MISSION_PHASE_NAME           = "CRUISE AND APPROACH"
+PRODUCT_VERSION_TYPE         = ACTUAL
+PLATFORM_OR_MOUNTING_NAME    = "N/A"
+START_TIME                   = 2011-11-29T20:33:30.392
+STOP_TIME                    = 2012-08-06T04:53:45.138
+SPACECRAFT_CLOCK_START_COUNT = "1/0375870874-00000"
+SPACECRAFT_CLOCK_STOP_COUNT  = "1/0397500694-24576"
+TARGET_NAME                  = MARS
+INSTRUMENT_NAME              = "CRUISE STAGE"
+NAIF_INSTRUMENT_ID           = {
+                               -76050,
+                               -76000
+                               }
+SOURCE_PRODUCT_ID            = "N/A"
+NOTE                         = "See comments in the file for details"
+OBJECT                       = SPICE_KERNEL
+  INTERCHANGE_FORMAT         = BINARY
+  KERNEL_TYPE                = POINTING
+  DESCRIPTION                = "CK file containing fully reconstructed
+orientation based on real-time quaternions covering only communication
+periods. "
+END_OBJECT                   = SPICE_KERNEL
+END

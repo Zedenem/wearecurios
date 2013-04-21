@@ -10,3 +10,6 @@ GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 # Hello Web (JSON Web Service)
 GET     /helloWeb                   controllers.Application.helloWeb()
+
+# Curios Moves (JSON Web Service)
+GET     /curiosmoves                   controllers.Application.curiosmoves()

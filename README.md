@@ -15,3 +15,8 @@ Publish a set of RESTful Web Services that allow other developers to manipulate 
 For the Curiosity Parser to work, you have to put in the `/src/curiosityparser/data` folder the datas available at :
 
 	http://naif.jpl.nasa.gov/pub/naif/pds/data/msl-m-spice-6-v1.0/mslsp_1000/data/
+	
+## Space Apps Challenge 2013 Presentation
+Made at **@LaCantine**, Paris, on April 21st 2013.
+
+	https://docs.google.com/presentation/d/1OhcWmPT5yIkFVICsbitma1BSFEfaPYjZhNvX9IlTxXI/edit?usp=sharing
